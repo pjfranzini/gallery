@@ -1,0 +1,25 @@
+// Place all the styles related to the artists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.last-name{font-weight: bold}
+
+ .vqn-ui {
+  background: image-url("vvHeader.jpg") top center no-repeat;
+  background-size: cover;
+
+  padding-top: 250px;
+  }
+
+  .img-polaroid{padding: 10px;
+  -webkit-box-shadow:  2px 2px 4px #555;
+  -moz-box-shadow:  2px 2px 4px #555;
+  box-shadow: 2px 2px 4px #555;
+  }
+  .label-center {
+
+  text-align: center;
+  max-width: 600px;
+}
+  .caption{
+  padding-top: 20px;
+  }
