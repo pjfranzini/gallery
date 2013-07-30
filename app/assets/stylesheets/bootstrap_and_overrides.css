@@ -10,3 +10,10 @@
   -moz-box-shadow:  2px 2px 4px #555;
   box-shadow: 2px 2px 4px #555;
   }
+  .navbar-inverse .navbar-inner {background-image: linear-gradient(to bottom, #000, #000);
+  font-size: 20px;
+  padding-left: 100px;
+  }
+  .navbar-inverse .nav>li>a {
+  color: #bbb;
+  letter-spacing:2px;}

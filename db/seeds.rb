@@ -19,7 +19,7 @@ Artist.create([
   {first_name: "", last_name: "Lost Paradigm", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "Un aller simple"},
   {first_name: "Martine", last_name: "Gilbert", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "Inclassable", second_piece: "Les tricoteuses"},
   {first_name: "Patricia", last_name: "Pigeon", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "Pourquoi?", second_piece: "Et encore Pourquoi?"},
-  {first_name: "Paul", last_name: "Walty", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "À La va-vite", second_piece: "Et Que ça saute"},
+  {first_name: "Paul", last_name: "Walty", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "À la va-vite", second_piece: "Et que ça saute"},
   {first_name: "Paula", last_name: "Franzini", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "Rupture", second_piece: "Vision Nocturne"},
   {first_name: "Raymond", last_name: "Aubin", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "Dépanneur no 6", second_piece: "Je"},
   {first_name: "Claire", last_name: "Cloutier", bio: "This is the bio etc etc asdf a;dff adsf ewfa sdf wef ad fsdflsdkjf aasdf sdljfas", city: "Gatineau", first_piece: "Vega la bleue"},
