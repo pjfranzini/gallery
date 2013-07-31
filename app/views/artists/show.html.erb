@@ -1,14 +1,1 @@
-<h2><%= @artist.first_name %> <span class="last-name"> <%= @artist.last_name %> </span></h2>
-  <div class="label-center">
-    <%= image_tag(@artist.last_name+'1.jpg', class: 'img-polaroid') %>
-    <h3 class="caption"><%= @artist.first_piece %></h3>
-    <% if @artist.second_piece %>
-      <hr>
-      <div class="second-piece">
-        <%= image_tag(@artist.last_name+'2.jpg', class: 'img-polaroid' ) %>
-        <h3 class="caption"><%= @artist.second_piece %></h3>
-      </div>
-    <% end %>
-  </div>
-  <p> <%= @artist.bio %></p>
-</ul>
+<%= render @artist %>
