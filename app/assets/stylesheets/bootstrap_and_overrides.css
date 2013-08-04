@@ -17,3 +17,9 @@
   .navbar-inverse .nav>li>a {
   color: #bbb;
   letter-spacing:2px;}
+
+  li {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
