@@ -5,14 +5,19 @@
 
  .vqn-ui {
     @media (max-width:995px) { background: image-url("vvHeader725.jpg") top center no-repeat;
-      padding-top: 60px;
+      padding-top: 67px;
     }
 
     @media (min-width:995px) { background: image-url("vvHeader940.jpg") top center no-repeat;
-      padding-top: 100px;
+      padding-top: 87px;
     }
     @media (min-width:1215px) { background: image-url("vvHeader1170.jpg")  top center no-repeat;
-      padding-top: 145px;}
+      padding-top: 107px;}
+  }
+    .black-bar {background-color: #000;
+      @media (max-width:995px) {     min-height:30px; }
+      @media (min-width:995px) {     min-height:35px; }
+      @media (min-width:1215px) {    min-height:40px;}
   }
 
 
@@ -55,10 +60,21 @@
 #site-title {
 float: left;
 margin: 0 0 0 0;
-width: 600px;
+width: 400px;
 font-size: 0px;
-line-height: 70px;
+line-height: 68px;
 background-image: url("VVlogo1.jpg");
 background-repeat: no-repeat;
 text-indent: 68px;
+}
+#site-description {
+clear: right;
+float: right;
+font-size: 16px;
+font-style: none;
+margin: 8px 0 14px 0;
+padding-top: 20px;
+      @media (max-width:995px) {  margin: 5px 0 5px 0;   width: 250px; }
+      @media (min-width:995px) {     width: 275px; }
+      @media (min-width:1215px) {    width: 275px;}
 }
