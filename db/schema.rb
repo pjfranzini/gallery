@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130729213646) do
+ActiveRecord::Schema.define(version: 20130829183029) do
 
   create_table "artists", force: true do |t|
     t.string   "first_name"
     t.string   "last_name"
-    t.string   "bio"
+    t.text     "bio",          limit: 2550
     t.string   "text"
     t.string   "city"
     t.string   "first_piece"
