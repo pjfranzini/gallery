@@ -10,5 +10,5 @@
       </div>
     <% end %>
   </div>
-  <p class="main-text"> <%= artist.bio %></p>
+  <div class="main-text"> <%= sanitize(artist.bio) %></div>
 </ul>
